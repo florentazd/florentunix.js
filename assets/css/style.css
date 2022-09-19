@@ -5044,6 +5044,7 @@ input[type="button"].btn-block {
 }
 
 .card {
+transition: background 0.8s ease;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -5060,6 +5061,17 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0;
+}
+.mb-5.card{
+border-radius: 5px !important
+}
+.mb-5.card:hover{
+  background: #130f40;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.mb-5.card:hover *{
+  color: #ffffff !important
 }
 
 .card > hr {
